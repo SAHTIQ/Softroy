@@ -17,7 +17,7 @@
 
 # 📖 Project Overview
 
-Softroy Agent is a production-ready Multi-Agent Academic Research Platform that automates scientific research using 20 specialized AI agents coordinated through LangGraph.
+Softroy Agent is a production-ready Multi-Agent Academic Research Platform that automates scientific research using 11 specialized AI agents (Can be extendable) coordinated through LangGraph.
 
 Unlike conventional AI assistants, Softroy Agent enables collaborative reasoning where each agent performs a dedicated research task—including literature search, evidence retrieval, citation verification, contradiction detection, hypothesis generation, scientific writing, and peer-review simulation.
 
