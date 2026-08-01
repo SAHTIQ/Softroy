@@ -39,7 +39,7 @@ The platform integrates Retrieval-Augmented Generation (RAG), Neo4j Knowledge Gr
 
 <p align="center">
 
-<img src="[docs/images/agent_architecture.png](https://chatgpt.com/backend-api/estuary/content?id=file_0000000043688211ba9925dbb1cb0043&ts=495988&p=fs&cid=1&sig=28831375c6ffc22357ff9d2acf62b9324032e24470015a0cd8033ff195899206&v=0)" width="100%">
+<img src="C:\Users\hp\Downloads\ChatGPT Image Aug 1, 2026, 04_06_26 AM.png" width="100%">
 
 </p>
 
