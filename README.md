@@ -204,6 +204,3 @@ docs/images/knowledge_graph.png
 
 ---
 
-# 📜 License
-
-MIT License
