@@ -29,7 +29,7 @@ The platform integrates Retrieval-Augmented Generation (RAG), Neo4j Knowledge Gr
 
 <p align="center">
 
-<img src="docs/images/system_architecture.png" width="100%">
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/46dafcaa-9381-46f5-8a7b-077f12fdd7fe" />
 
 </p>
 
