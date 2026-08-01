@@ -1,20 +1,211 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Softroy Agent
+### Multi-Agent Academic Research Assistant
 
-# Run and deploy your AI Studio app
+<p align="center">
 
-This contains everything you need to run your app locally.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688)
+![LangGraph](https://img.shields.io/badge/LangGraph-Orchestration-orange)
+![NextJS](https://img.shields.io/badge/Next.js-15-black)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![Neo4j](https://img.shields.io/badge/Neo4j-Graph_DB-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-View your app in AI Studio: https://ai.studio/apps/abf6be3a-a04c-4aed-9b59-c1320592770e
+</p>
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+# 📖 Project Overview
+
+Softroy Agent is a production-ready Multi-Agent Academic Research Platform that automates scientific research using 20 specialized AI agents coordinated through LangGraph.
+
+Unlike conventional AI assistants, Softroy Agent enables collaborative reasoning where each agent performs a dedicated research task—including literature search, evidence retrieval, citation verification, contradiction detection, hypothesis generation, scientific writing, and peer-review simulation.
+
+The platform integrates Retrieval-Augmented Generation (RAG), Neo4j Knowledge Graphs, Crossref citation verification, and multiple academic databases to provide accurate, explainable, and evidence-backed research outputs while minimizing hallucinations.
+
+---
+
+# 🏗 System Architecture
+
+<p align="center">
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/731126a0-1da2-4767-9147-f31486665230" />
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+</p>
+
+---
+
+# 🤖 Multi-Agent Architecture
+
+<p align="center">
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/372444f2-17b0-4dfa-b759-d0768bf5e7a6" />
+
+
+</p>
+
+---
+
+# 🔄 AI Pipeline
+
+User Query
+↓
+Intent Analysis
+↓
+Planner Agent
+↓
+Task Distribution
+↓
+Academic Search
+↓
+Parallel Research Agents
+↓
+Vector Retrieval (BGE-M3)
+↓
+Knowledge Graph Reasoning
+↓
+Evidence Ranking
+↓
+Citation Verification
+↓
+Debate & Consensus
+↓
+Scientific Writing
+↓
+Final Report
+
+---
+
+# 🧠 RAG Pipeline
+
+PDFs
+Research Papers
+Academic Databases
+↓
+Document Loader
+↓
+Chunking
+↓
+BGE-M3 Embeddings
+↓
+Qdrant / Chroma
+↓
+Retriever
+↓
+Context Builder
+↓
+LLM
+↓
+Answer Generation
+
+---
+
+# 🌐 Tech Stack
+
+Backend
+- FastAPI
+- Python
+- LangGraph
+- LangChain
+- Celery
+- Redis
+
+AI
+- OpenRouter
+- Gemini
+- GPT-4.1
+- Claude
+- DeepSeek
+- BGE-M3
+- CrossEncoder
+
+Database
+- PostgreSQL
+- Neo4j
+- Qdrant
+- Redis
+
+Frontend
+- Next.js
+- React
+- TailwindCSS
+- TypeScript
+- shadcn/ui
+- Framer Motion
+
+Infrastructure
+- Docker
+- GitHub Actions
+- Nginx
+- Prometheus
+- Grafana
+
+---
+
+# 📂 Project Structure
+
+backend/
+frontend/
+agents/
+memory/
+rag/
+knowledge_graph/
+database/
+docker/
+docs/
+tests/
+
+---
+
+# 📸 Screenshots
+
+Dashboard
+
+docs/images/dashboard.png
+
+Research Workspace
+
+docs/images/workspace.png
+
+Agent Monitor
+
+docs/images/agents.png
+
+Knowledge Graph
+
+docs/images/knowledge_graph.png
+
+---
+
+# 🚀 Features
+
+✅ 20 Specialized AI Agents
+
+✅ Multi-Agent Collaboration
+
+✅ LangGraph Orchestration
+
+✅ Hybrid RAG
+
+✅ Knowledge Graph Reasoning
+
+✅ Academic Search
+
+✅ Citation Verification
+
+✅ Hallucination Detection
+
+✅ Consensus-based Decision Making
+
+✅ Scientific Report Generation
+
+✅ Plugin Architecture
+
+✅ Real-Time Monitoring
+
+---
+
+# 📜 License
+
+MIT License
