@@ -1,0 +1,6 @@
+{
+  "name": "SoftRoy AI - Multi-Agent Academic Research Assistant",
+  "description": "An advanced multi-agent academic research assistant featuring deep research, paper comparison, document analysis (PDF/DOCX/PPTX/Images), scientific review, evidence graphs, and exportable reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
